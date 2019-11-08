@@ -1,0 +1,87 @@
+input {
+  outline: none;
+  border: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+}
+
+.loginTitle {
+  display: block;
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+.formGroup {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #adadad;
+  margin-bottom: 30px;
+}
+
+.inputForm {
+  font-size: 15px;
+  color: #555555;
+  /* line-height: 1.2; */
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0;
+}
+
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.loginBtn {
+  position: relative;
+  background: #4c0d75;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.loginBtn:hover {
+  background: #523e5f;
+}
+
+.btnShow {
+  font-size: 15px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.btnShow:hover {
+  color: #838383;
+}
