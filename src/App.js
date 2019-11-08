@@ -1,11 +1,9 @@
-import React from 'react';
-import Login from './components/Login'
-import './App.css';
+import React from "react";
+import Login from "./components/Login/Login";
+import "./App.css";
 
 function App() {
-  return (
-    <Login/>
-  );
+  return <Login />;
 }
 
 export default App;
